@@ -15,12 +15,12 @@ body::-webkit-scrollbar {
 
 .font-esthetic {
     font-family: 'Sacramento', cursive !important;
-    color: #ffffff !important;
+    color: #11111 !important;
 }
 
 .font-arabic {
     font-family: 'Noto Naskh Arabic', serif !important;
-    color: #ffffff !important;
+    color: #11111 !important;
 }
 
 .img-crop {
@@ -50,7 +50,8 @@ body::-webkit-scrollbar {
     inset: 0 !important;
     width: 100%;
     height: 100%;
-    background-color: #111111;
+    background-color: #fe3c72
+    ;
     z-index: 1056 !important;
 }
 
@@ -95,13 +96,35 @@ body::-webkit-scrollbar {
 }
 
 .dark-section {
-    background-color: #111111 !important;
+    background-color: #FFF5E0 !important;
     margin-top: -0.5rem;
     margin-bottom: -0.5rem;
+    color:#111111 !important;
 }
 
 footer {
-    background-color: #111111 !important;
-    margin-top: -0.5rem;
+    background-color: #fe3c72 !important;
+    /* margin-top: -0.5rem; */
     padding-bottom: 5rem;
+    color:#ffffff !important;
 }
+
+.cardSpl {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .cardSpl:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .containerSpl {
+    padding: 2px 16px;
+  }

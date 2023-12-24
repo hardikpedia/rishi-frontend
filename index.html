@@ -65,22 +65,14 @@
     <meta name="theme-color" content="#111111" />
     <meta name="color-scheme" content="dark" />
     <link rel="canonical" href="https://ulems.my.id/" />
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://ulems.my.id/favicon.ico"
-    />
+    <link rel="shortcut icon" type="image/x-icon" href="./heart.png" />
     <link
       rel="apple-touch-icon"
       sizes="192x192"
       type="image/png"
-      href="https://ulems.my.id/assets/images/icon-192x192.png"
+      href="./heartvid.gif"
     />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="https://ulems.my.id/favicon.ico"
-    />
+    <link rel="icon" type="image/x-icon" href="./heart.png" />
 
     <!-- Preconnect and preload CDN -->
     <link
@@ -204,7 +196,7 @@
     data-email="user@example.com"
     data-password="12345678"
     data-url="https://api.ulems.my.id/"
-    style="overflow-y: hidden"
+    style="overflow-y: hidden; background-color: #fe3c72;"
   >
     <!-- Navbar Bottom -->
     <nav
@@ -219,13 +211,13 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#memnridpelai">
+          <a class="nav-link" href="#bride">
             <i class="fa-solid fa-user-group"></i>
             <span class="d-block" style="font-size: 0.7rem">Bride</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#tanggal">
+          <a class="nav-link" href="#calendar">
             <i class="fa-solid fa-calendar-check"></i>
             <span class="d-block" style="font-size: 0.7rem">Calendar</span>
           </a>
@@ -236,12 +228,12 @@
             <span class="d-block" style="font-size: 0.7rem">Gallery</span>
           </a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="#ucapan">
             <i class="fa-solid fa-comments"></i>
             <span class="d-block" style="font-size: 0.7rem">Ucapan</span>
           </a>
-        </li>
+        </li> -->
       </ul>
     </nav>
 
@@ -255,7 +247,7 @@
       tabindex="0"
     >
       <!-- Home -->
-      <section class="container" id="home">
+      <section c#FFF5E0" id="home">
         <div class="text-center pt-4">
           <h1 class="font-esthetic my-4" style="font-size: 2.5rem">
             You are invited to the wedding of
@@ -275,7 +267,7 @@
             Rishi & Prachi
           </h1>
           <p class="mb-0" style="font-size: 1.5rem">March 10-12, 2024</p>
-          <p class="mb-0" style="font-size: 1.5rem " id="time-left"></p>
+          <p class="mb-0" style="font-size: 1.5rem" id="time-left"></p>
           <a
             class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-2"
             target="_blank"
@@ -299,14 +291,14 @@
       <!-- Wave Separator -->
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#111111"
+          fill="#FFF5E0"
           fill-opacity="1"
           d="M0,160L48,144C96,128,192,96,288,106.7C384,117,480,171,576,165.3C672,160,768,96,864,96C960,96,1056,160,1152,154.7C1248,149,1344,75,1392,37.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
 
       <!-- Mempelai -->
-      <section class="dark-section" id="mempelai">
+      <section class="dark-section" id="bride">
         <div class="text-center">
           <h1 class="font-arabic py-4 px-2" style="font-size: 2rem">
             जय माँ बगलामुखी ।
@@ -367,7 +359,7 @@
       <!-- Wave Separator -->
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#111111"
+          fill="#FFF5E0"
           fill-opacity="1"
           d="M0,192L40,181.3C80,171,160,149,240,149.3C320,149,400,171,480,165.3C560,160,640,128,720,128C800,128,880,160,960,186.7C1040,213,1120,235,1200,218.7C1280,203,1360,149,1400,122.7L1440,96L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
         ></path>
@@ -391,73 +383,164 @@
           <span class="mb-0"><strong>QS. Ar-Rum Ayat 21</strong></span>
         </div>
       </div> -->
-      <div class="container">
-        <div class="text-center">
-          <h1 class="font-esthetic py-3" style="font-size: 2rem">
-            Wedding Countdown...
-          </h1>
-          <div class="border rounded-pill shadow py-2 px-4 mx-2 mb-4">
-            <!-- Ganti waktunya pada data-waktu (sesuai format tersebut) -->
-            <div
-              class="row justify-content-center"
-              data-waktu="2024-03-10 00:00:00"
-              id="tampilan-waktu"
-            >
-              <div class="col-3 p-1">
-                <h2 class="d-inline m-0 p-0" id="hari">0</h2>
-                <small class="ms-1 me-0 my-0 p-0 d-inline">Days</small>
-              </div>
-              <div class="col-3 p-1">
-                <h2 class="d-inline m-0 p-0" id="jam">0</h2>
-                <small class="ms-1 me-0 my-0 p-0 d-inline">Hours</small>
-              </div>
-              <div class="col-3 p-1">
-                <h2 class="d-inline m-0 p-0" id="menit">0</h2>
-                <small class="ms-1 me-0 my-0 p-0 d-inline">Minutes</small>
-              </div>
-              <div class="col-3 p-1">
-                <h2 class="d-inline m-0 p-0" id="detik">0</h2>
-                <small class="ms-1 me-0 my-0 p-0 d-inline">Seconds</small>
+      <section id="calendar">
+        <div class="container">
+          <div class="text-center">
+            <h1 class="font-esthetic py-3" style="font-size: 3rem">
+              Wedding Countdown...
+            </h1>
+            <div class="border border-white border-3 rounded-pill shadow py-2 px-4 mx-2 mb-4">
+              <!-- Ganti waktunya pada data-waktu (sesuai format tersebut) -->
+              <div
+                class="row justify-content-center"
+                data-waktu="2024-03-10 00:00:00"
+                id="tampilan-waktu"
+              >
+                <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0" id="hari">0</h2>
+                  <small class="ms-1 me-0 my-0 p-0">Days</small>
+                </div>
+                <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0" id="jam">0</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline">Hours</small>
+                </div>
+                <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0" id="menit">0</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline">Mins</small>
+                </div>
+                <div class="col-3 p-1">
+                  <h2 class="d-inline m-0 p-0" id="detik">0</h2>
+                  <small class="ms-1 me-0 my-0 p-0 d-inline">Secs</small>
+                </div>
               </div>
             </div>
-          </div>
 
-          <p style="font-size: 0.9rem" class="mt-4 py-2">
-            Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala,
-            insyaAllah kami akan menyelenggarakan acara :
-          </p>
-
-          <div class="overflow-x-hidden">
-            <div class="py-2" data-aos="fade-left" data-aos-duration="1500">
-              <h1 class="font-esthetic" style="font-size: 2rem">Akad</h1>
-              <p>Pukul 10.00 WIB - Selesai</p>
-            </div>
-
-            <div class="py-2" data-aos="fade-right" data-aos-duration="1500">
-              <h1 class="font-esthetic" style="font-size: 2rem">Resepsi</h1>
-              <p>Pukul 13.00 WIB - Selesai</p>
-            </div>
-          </div>
-
-          <div class="py-2" data-aos="fade-up" data-aos-duration="1500">
-            <a
-              href="https://goo.gl/maps/ALZR6FJZU3kxVwN86"
-              target="_blank"
-              class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3"
-            >
-              <i class="fa-solid fa-map-location-dot me-2"></i>Lihat Google Maps
-            </a>
-            <p class="mb-0 mt-1 mx-1 pb-4" style="font-size: 0.9rem">
-              RT 10 RW 02, Desa Pajerukan, Kec. Kalibagor, Kab. Banyumas, Jawa
-              Tengah 53191
+            <p style="font-size: 1.1rem" class="mt-4 py-2">
+              Seeking the blessings and divine grace of Maa Baglamukhi, with
+              faith and devotion, we intend to arrange the following events:
             </p>
+
+            <div class="cardSpl">
+              <div class="containerSpl">
+                <h2><b>আইবুড়োভাত AIBUROBHAT</b></h2>
+                <p>10th March 2024</p>
+                <p style="color: gold">Attire: Razzle Dazzle</p>
+                <p>
+                  ‘Aiburobhat’ loosely translates to Aiburo (bachelor) Bhat
+                  (Rice). It is a Bengali ritual celebrating a bachelor's last
+                  meal before the wedding. Common among Ghoti families, it
+                  involves a grand feast with the bride's favorite dishes,
+                  including fish, fried foods, sweets, and doi. The groom or
+                  bride is expected to enjoy the meal with close relatives the
+                  day before the wedding.
+                </p>
+              </div>
+            </div>
+
+            <div class="cardSpl">
+              <div class="containerSpl">
+                <h2><b>সঙ্গীত SANGEET</b></h2>
+                <p>10th March 2024</p>
+                <p style="color: gold">Attire: Dhinchak</p>
+                <p>
+                  Sangeet, a lively pre-wedding celebration in Hindu, Punjabi,
+                  and Gujurati traditions, blends music and joy. Originating in
+                  Punjab, it now includes both genders, diverging from
+                  traditional female-only participation. Sangeet uniquely
+                  focuses on reveling in the sheer happiness and unbridled joy
+                  surrounding the couple.
+                </p>
+              </div>
+            </div>
+
+            <div class="cardSpl">
+              <div class="containerSpl">
+                <h2><b>হালদি HALDI</b></h2>
+                <p>11th March 2024</p>
+                <p style="color: gold">Attire: Haldi Kumkum</p>
+                <p>
+                  In the Haldi ceremony, relatives apply the paste to specific
+                  body parts of the bride and groom – face, arms, hands, knees,
+                  and feet – using mango leaves. Despite the mess, adorned in
+                  traditional attire, the couple receives blessings as family
+                  members sing traditional songs, each taking turns in the
+                  ritual cleansing.
+                </p>
+              </div>
+            </div>
+            <div class="cardSpl">
+              <div class="containerSpl">
+                <h2><b>বরাত BARAAT</b></h2>
+                <p>11th March 2024</p>
+                <p style="color: gold">Attire: Royal Bengal Boryatri</p>
+                <p>
+                  Baraat, a jubilant procession, symbolizes the groom's journey
+                  to the wedding venue. Accompanied by family and friends, he
+                  makes a grand entrance, riding a decorated horse, elephant, or
+                  a stylish car. The baraatis, filled with the groom's loved
+                  ones, dance joyously, creating a festive atmosphere. It's a
+                  vibrant showcase of excitement and happiness from the groom's
+                  side, culminating at the wedding venue where rituals commence,
+                  and the bride's family welcomes the groom with warmth.
+                </p>
+              </div>
+            </div>
+            <div class="cardSpl">
+              <div class="containerSpl">
+                <h2><b>বৌভাত BOUBHAT</b></h2>
+                <p>12th March 2024</p>
+                <p style="color: gold">Attire: Dudhae Alta</p>
+                <p>
+                  Bou Bhat, a post-Bengali wedding ritual, unfolds in a grand
+                  banquet called Preetibhoj or Preetibhoja. Hosted by the
+                  groom's family, it unites both sides in joy. In Bengali Muslim
+                  weddings, after the celebration, the couple spends two nights
+                  at the bride's house, followed by a meal named firani or
+                  araiya. The groom's thoughtful shopping precedes this shared
+                  moment. This tradition resonates across cultures, mirroring
+                  the elegance of a Walima ceremony in the broader Muslim world.
+                </p>
+              </div>
+            </div>
+            <div class="cardSpl">
+              <div class="containerSpl">
+                <h2><b>রিসেপশন RECEPTION</b></h2>
+                <p>12th March 2024</p>
+                <p style="color: gold">Attire: Sartorial Splendor</p>
+                <div class="py-2" data-aos="fade-up" data-aos-duration="1500">
+                  <a
+                    href="https://maps.app.goo.gl/buTivXgTGvD3tLvP6"
+                    target="_blank"
+                    class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3"
+                  >
+                    <i class="fa-solid fa-map-location-dot me-2"></i>Find on
+                    Google Maps
+                  </a>
+                  <p class="mb-0 mt-1 mx-1 pb-4" style="font-size: 0.9rem">
+                    Swarna Bhumi -B2 Dangratoli, Ranchi, JH, 834001, India
+                  </p>
+                </div>
+                <p>
+                  The wedding reception is like a fancy party where the newlywed
+                  couple shows up in public for the first time. It's a big,
+                  beautiful celebration with amazing decorations and delicious
+                  food. In Hindu customs, there aren't many rituals during the
+                  reception, it's more about the groom's community welcoming the
+                  bride with open arms. The party is full of happy music and
+                  dancing, making it a joyful affair. It's a special and fancy
+                  event that brings together tradition, luxury, and celebration
+                  in a simple, lovely way.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+
       <!-- Wave Separator -->
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#111111"
+          fill="#FFF5E0"
           fill-opacity="1"
           d="M0,96L30,106.7C60,117,120,139,180,154.7C240,171,300,181,360,186.7C420,192,480,192,540,181.3C600,171,660,149,720,154.7C780,160,840,192,900,208C960,224,1020,224,1080,208C1140,192,1200,160,1260,138.7C1320,117,1380,107,1410,101.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
         ></path>
@@ -467,7 +550,7 @@
       <section class="dark-section" id="tanggal"></section>
 
       <!-- Galeri Foto -->
-      <section class="dark-section" id="galeri">
+      <section class="dark-section" id="galeri" style="padding-bottom: 50px;"">
         <div class="container pb-2 pt-4">
           <div class="card-body border rounded-4 shadow p-3">
             <h1
@@ -476,7 +559,7 @@
               data-aos-duration="1500"
               style="font-size: 2rem"
             >
-              Galeri
+              Gallery
             </h1>
 
             <div
@@ -651,102 +734,27 @@
       </section>
 
       <!-- Wave Separator -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#111111"
           fill-opacity="1"
           d="M0,96L30,106.7C60,117,120,139,180,154.7C240,171,300,181,360,186.7C420,192,480,192,540,181.3C600,171,660,149,720,154.7C780,160,840,192,900,208C960,224,1020,224,1080,208C1140,192,1200,160,1260,138.7C1320,117,1380,107,1410,101.3L1440,96L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
         ></path>
-      </svg>
-
-      <!-- Hadiah -->
-      <div class="container">
-        <div class="py-4">
-          <div class="text-center">
-            <h1 class="font-esthetic mt-0 mb-3" style="font-size: 3rem">
-              Love Gift
-            </h1>
-
-            <p class="mb-1" style="font-size: 0.9rem">
-              Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan
-              tanda kasih untuk kami, dapat melalui :
-            </p>
-
-            <div class="overflow-x-hidden">
-              <div class="row justify-content-center">
-                <div
-                  class="col-5 card-body border rounded-4 shadow p-3 m-3"
-                  data-aos="fade-down"
-                  data-aos-duration="1500"
-                >
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/id/thumb/5/55/BNI_logo.svg/640px-BNI_logo.svg.png"
-                    class="img-fluid w-50 rounded"
-                    alt="bni"
-                  />
-
-                  <p class="card-text mt-3 mb-0" style="font-size: 0.9rem">
-                    No. Rekening 123456789
-                  </p>
-                  <p class="card-text" style="font-size: 0.9rem">
-                    a.n Lorem ipsum dolor
-                  </p>
-
-                  <!-- Ubah juga data-nomer sesuai dengan no rekening -->
-                  <button
-                    class="btn btn-light btn-sm rounded-3"
-                    data-nomer="123456789"
-                    onclick="util.salin(this)"
-                    autofocus
-                  >
-                    Salin No. Rekening
-                  </button>
-                </div>
-
-                <div
-                  class="col-5 card-body border rounded-4 shadow p-3 m-3"
-                  data-aos="fade-down"
-                  data-aos-duration="1500"
-                >
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/BANK_BRI_logo.svg/640px-BANK_BRI_logo.svg.png"
-                    class="img-fluid w-50 rounded"
-                    alt="bri"
-                  />
-
-                  <p class="card-text mt-3 mb-0" style="font-size: 0.9rem">
-                    No. Rekening 123456789
-                  </p>
-                  <p class="card-text" style="font-size: 0.9rem">
-                    a.n Lorem ipsum dolor
-                  </p>
-
-                  <!-- Ubah juga data-nomer sesuai dengan no rekening -->
-                  <button
-                    class="btn btn-light btn-sm rounded-3"
-                    data-nomer="123456789"
-                    onclick="util.salin(this)"
-                    autofocus
-                  >
-                    Salin No. Rekening
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </svg> -->
 
       <!-- Ucapan -->
-      <section class="m-0 p-0" id="ucapan">
+      <section class="m-0 p-0" id="ucapan" style="display: none; height:0;">
         <div class="container">
-          <div class="card-body border rounded-4 shadow p-3">
-            <h1 class="font-esthetic text-center mb-3" style="font-size: 3rem">
+          <div
+            class="card-body border rounded-4 shadow p-3"
+            style="display: none"
+          >
+            <!-- <h1 class="font-esthetic text-center mb-3" style="font-size: 3rem">
               Ucapan & Doa
             </h1>
-            <div class="mb-1" id="balasan"></div>
+            <div class="mb-1" id="balasan"></div> -->
 
-            <div class="mb-3">
+            <!-- <div class="mb-3">
               <label for="form-nama" class="form-label">Nama</label>
               <input
                 type="text"
@@ -754,9 +762,9 @@
                 id="form-nama"
                 placeholder="Isikan Nama Anda"
               />
-            </div>
+            </div> -->
 
-            <div class="mb-3">
+            <!-- <div class="mb-3">
               <label
                 for="form-kehadiran"
                 class="form-label"
@@ -768,36 +776,36 @@
                 <option value="1">Hadir</option>
                 <option value="2">Berhalangan</option>
               </select>
-            </div>
+            </div> -->
 
-            <div class="mb-3">
-              <label for="form-pesan" class="form-label">Ucapan & Doa</label>
+            <div class="mb-3" style="display: none">
+              <!-- <label for="form-pesan" class="form-label">Ucapan & Doa</label> -->
               <div
                 id="alertDiv"
                 class="alert alert-info alert-dismissible fade show"
                 role="alert"
               >
-                <h5>Bestieee!!!</h5>
+                <!-- <h5>Bestieee!!!</h5>
                 <p class="m-0">
                   Sekarang bisa format text seperti whatsapp lohh... cobainn
                   sekaranggg, makaciwww bestieee
-                </p>
-                <button
+                </p> -->
+                <!-- <button
                   type="button"
                   class="btn-close"
                   data-bs-dismiss="alert"
                   aria-label="Close"
                   onclick="localStorage.setItem('alertClosed', 'true');document.getElementById('alertDiv').style.display = 'none';"
-                ></button>
+                ></button> -->
               </div>
-              <textarea
+              <!-- <textarea
                 class="form-control shadow-sm"
                 id="form-pesan"
                 rows="4"
                 placeholder="Tulis Ucapan & Doa"
-              ></textarea>
+              ></textarea> -->
             </div>
-
+            <!-- 
             <div class="d-flex">
               <button
                 class="flex-fill btn btn-danger btn-sm rounded-3 shadow m-1"
@@ -830,12 +838,12 @@
               >
                 Kirim<i class="fa-solid fa-paper-plane ms-1"></i>
               </button>
-            </div>
+            </div> -->
           </div>
 
-          <div class="rounded-4 mt-4 mb-2" id="daftar-ucapan"></div>
+          <!-- <div class="rounded-4 mt-4 mb-2" id="daftar-ucapan"></div> -->
 
-          <nav class="d-flex justify-content-center mb-0">
+          <!-- <nav class="d-flex justify-content-center mb-0">
             <ul class="pagination mb-0">
               <li class="page-item disabled" id="previous">
                 <button
@@ -859,69 +867,78 @@
                 </button>
               </li>
             </ul>
-          </nav>
+          </nav> -->
         </div>
+        
       </section>
 
       <!-- Wave Separator -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="padding-top: 0%;">
         <path
           fill="#111111"
           fill-opacity="1"
           d="M0,224L34.3,234.7C68.6,245,137,267,206,266.7C274.3,267,343,245,411,234.7C480,224,549,224,617,213.3C685.7,203,754,181,823,197.3C891.4,213,960,267,1029,266.7C1097.1,267,1166,213,1234,192C1302.9,171,1371,181,1406,186.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
         ></path>
-      </svg>
+      </svg>  -->
+     
     </main>
 
     <!-- Footer Undangan -->
+   
     <footer>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-top: -100px; margin-bottom: 8px">
+        <path
+          fill=" #fe3c72"
+          fill-opacity="1"
+          d="M0,224L34.3,234.7C68.6,245,137,267,206,266.7C274.3,267,343,245,411,234.7C480,224,549,224,617,213.3C685.7,203,754,181,823,197.3C891.4,213,960,267,1029,266.7C1097.1,267,1166,213,1234,192C1302.9,171,1371,181,1406,186.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg> 
       <div class="container">
+   
         <div class="text-center">
           <p
-            style="font-size: 0.9rem"
+            style="font-size: 1.9rem"
             class="pt-2 pb-1 px-2"
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila, Bapak
-            / Ibu / Saudara / i. berkenan hadir untuk memberikan do'a restunya
-            kami ucapkan terimakasih.
+            RSVP
           </p>
-
-          <h1 class="font-esthetic" data-aos="fade-up" data-aos-duration="2000">
-            Wassalamualaikum Warahmatullahi Wabarakatuh
-          </h1>
-          <h1
-            class="font-arabic py-4 px-2"
-            data-aos="fade-up"
-            data-aos-duration="2000"
-            style="font-size: 2rem"
-          >
-            اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ
-          </h1>
+          <div style=" display:flex; flex-wrap:wrap; justify-items: center;justify-content: space-evenly;">
+            <p>Dr. T.K. Chakraborty</p>
+            <p>Mr. P.K. Chakraborty</p>
+            <p>Mr. S.K. Chakraborty</p>
+            <p>Mrs. Shipra Banerjee</p>
+            <p>Mr. D.K. Chakraborty</p>
+          </div>
+        </div>
+        
+        
 
           <hr class="mt-3 mb-2" />
 
           <div
             class="row align-items-center justify-content-between flex-column flex-sm-row"
           >
-            <div class="col-auto">
-              <small class="text-light">
-                Build with<i class="fa-solid fa-heart mx-1"></i>Dewanakl
+            <div class="col-auto " style="color: white;">
+              <small class="">
+                Build with<i
+                  class=" fa-solid fa-heart mx-1"
+                  style="color: pink"
+                ></i
+                >by Hardik
               </small>
             </div>
-            <div class="col-auto">
+            <div class="col-auto" style="color: white;">
               <small>
-                <i class="fa-brands fa-github me-1"></i
-                ><a target="_blank" href="https://github.com/dewanakl/undangan"
+                <i class="fa-brands fa-instagram me-1"></i
+                ><a target="_blank" href="https://www.instagram.com/hardikpedia"
+                  style="color: white;">hardikpedia</a
+                >
+                <!-- <i class="fa-brands fa-github me-1"></i
+                ><a target="_blank" href="https://github.com/hardikpedia"
                   >dewanakl</a
-                >
-                <i class="fa-brands fa-youtube me-1"></i
-                ><a
-                  target="_blank"
-                  href="https://www.youtube.com/watch?v=1WCIrw85zbQ"
-                  >I Wanna Grow Old with You</a
-                >
+                > -->
               </small>
             </div>
           </div>
@@ -976,7 +993,7 @@
     </button>
 
     <!-- Loading page -->
-    <div class="loading-page" id="loading" style="opacity: 1">
+    <!-- <div class="loading-page" id="loading" style="opacity: 1">
       <div
         class="d-flex justify-content-center align-items-center"
         style="height: 100vh !important"
@@ -984,7 +1001,7 @@
         <div class="text-center w-75">
           <img
             class="img-fluid mb-3"
-            src="./assets/images/icon-192x192.png"
+            src="./heartvid.gif"
             alt="icon"
             style="width: 3.5rem"
           />
@@ -994,7 +1011,7 @@
           <small class="mt-1 text-light" id="progress-info">Drumrolls</small>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Modal Foto Large -->
     <div class="modal fade" id="modal-image" tabindex="-1" aria-hidden="true">
