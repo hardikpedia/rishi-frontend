@@ -62,7 +62,7 @@ body::-webkit-scrollbar {
 .mouse-animation {
     padding: 0.25rem 0.625rem;
     height: 2rem;
-    border: 0.1rem solid #ffffff;
+    border: 0.1rem solid #FFFDD0;
     border-radius: 1.4rem;
     opacity: 0.75;
     box-sizing: content-box;
@@ -88,7 +88,7 @@ body::-webkit-scrollbar {
     width: 0.25rem;
     height: 0.625rem;
     border-radius: 25%;
-    background-color: #ffffff;
+    background-color: #FFFDD0;
     animation-name: scroll;
     animation-duration: 2.5s;
     animation-timing-function: linear;
@@ -96,7 +96,7 @@ body::-webkit-scrollbar {
 }
 
 .dark-section {
-    background-color: #FFF5E0 !important;
+    background-color: #FFFDD0 !important;
     margin-top: -0.5rem;
     margin-bottom: -0.5rem;
     color:#111111 !important;
@@ -106,7 +106,7 @@ footer {
     background-color: #fe3c72 !important;
     /* margin-top: -0.5rem; */
     padding-bottom: 5rem;
-    color:#ffffff !important;
+    color:#FFFDD0!important;
 }
 
 .cardSpl {
@@ -127,4 +127,7 @@ footer {
 
   .containerSpl {
     padding: 2px 16px;
+  }
+  .hello:hover{
+    color:black;
   }
