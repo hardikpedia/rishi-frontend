@@ -1,133 +1,132 @@
 html {
-    scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif !important;
-    padding: 0 !important;
-    -ms-overflow-style: none !important;
-    scrollbar-width: none !important;
+  font-family: "Josefin Sans", sans-serif !important;
+  padding: 0 !important;
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
 }
 
 body::-webkit-scrollbar {
-    display: none !important;
+  display: none !important;
 }
 
 .font-esthetic {
-    font-family: 'Sacramento', cursive !important;
-    color: #11111 !important;
+  font-family: "Sacramento", cursive !important;
+  color: #11111 !important;
 }
 
 .font-arabic {
-    font-family: 'Noto Naskh Arabic', serif !important;
-    color: #11111 !important;
+  font-family: "Noto Naskh Arabic", serif !important;
+  color: #11111 !important;
 }
 
 .img-crop {
-    width: 14rem;
-    height: 14rem;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
+  width: 14rem;
+  height: 14rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
-.img-crop>img {
-    display: inline;
-    margin: 0 auto;
-    height: auto;
-    width: 100%;
+.img-crop > img {
+  display: inline;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
 }
 
 .btn-music {
-    position: fixed;
-    bottom: 9vh !important;
-    right: 2vh !important;
-    z-index: 1055 !important;
+  position: fixed;
+  bottom: 9vh !important;
+  right: 2vh !important;
+  z-index: 1055 !important;
 }
 
 .loading-page {
-    position: fixed;
-    inset: 0 !important;
-    width: 100%;
-    height: 100%;
-    background-color: #fe3c72
-    ;
-    z-index: 1056 !important;
+  position: fixed;
+  inset: 0 !important;
+  width: 100%;
+  height: 100%;
+  background-color: #fe3c72;
+  z-index: 1056 !important;
 }
 
 .card-body {
-    overflow-wrap: break-word !important;
+  overflow-wrap: break-word !important;
 }
 
 .mouse-animation {
-    padding: 0.25rem 0.625rem;
-    height: 2rem;
-    border: 0.1rem solid #FFFDD0;
-    border-radius: 1.4rem;
-    opacity: 0.75;
-    box-sizing: content-box;
+  padding: 0.25rem 0.625rem;
+  height: 2rem;
+  border: 0.1rem solid #fffdd0;
+  border-radius: 1.4rem;
+  opacity: 0.75;
+  box-sizing: content-box;
 }
 
 @keyframes scroll {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    10% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 
-    100% {
-        transform: translateY(1rem);
-        opacity: 0;
-    }
+  100% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
 }
 
-.mouse-animation>.scroll-animation {
-    width: 0.25rem;
-    height: 0.625rem;
-    border-radius: 25%;
-    background-color: #FFFDD0;
-    animation-name: scroll;
-    animation-duration: 2.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+.mouse-animation > .scroll-animation {
+  width: 0.25rem;
+  height: 0.625rem;
+  border-radius: 25%;
+  background-color: #fffdd0;
+  animation-name: scroll;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .dark-section {
-    background-color: #FFFDD0 !important;
-    margin-top: -0.5rem;
-    margin-bottom: -0.5rem;
-    color:#111111 !important;
+  background-color: #fffdd0 !important;
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
+  color: #111111 !important;
 }
 
 footer {
-    background-color: #fe3c72 !important;
-    /* margin-top: -0.5rem; */
-    padding-bottom: 5rem;
-    color:#FFFDD0!important;
+  background-color: #fe3c72 !important;
+  /* margin-top: -0.5rem; */
+  padding-bottom: 5rem;
+  color: #fffdd0 !important;
 }
 
 .cardSpl {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
-  .cardSpl:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+.cardSpl:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
-  .containerSpl {
-    padding: 2px 16px;
-  }
-  .hello:hover{
-    color:black;
-  }
+.containerSpl {
+  padding: 2px 16px;
+}
+.hello:hover {
+  color: black;
+}
