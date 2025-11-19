@@ -11,12 +11,14 @@
 ### Deployment API
 
 - Vercel
-[https://dikit.my.id/DeploymentApiVercel](https://dikit.my.id/DeploymentApiVercel)
+  [https://dikit.my.id/DeploymentApiVercel](https://dikit.my.id/DeploymentApiVercel)
 
 - Hosting
-[https://dikit.my.id/DeploymentApiHosting](https://dikit.my.id/DeploymentApiHosting)
+  [https://dikit.my.id/DeploymentApiHosting](https://dikit.my.id/DeploymentApiHosting)
 
 ### Tech stack
+
+s
 
 - Bootstrap 5.3.2
 - AOS 2.3.4
